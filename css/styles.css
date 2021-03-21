@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+  padding-right: 30px;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 4px;
+  color: #f3f3e6;
+}
+
+p {
+  display: inline-block;
+  padding: 4px;
+}
+
+.menu-bar {
+  position: fixed;
+  background-color: #555555;
+  font-size: 12px;
+  color: #f3f3e6;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  width: 100%;
+  text-align: left;
+  z-index: 2
+}
+
+.page-title {
+  padding-left: 100px;
+  padding-top: 100px;
+  font-size: 50px;
+}
+
+.top-container {
+  background-color: #f3f3e6;
+  height: 500px;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+.middle-container {
+  line-height: 2;
+  width: 50%;
+  margin: 20px auto 20px auto;
+}
+
+.skill-row {
+  margin: 20px auto 20px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.footer {
+  background-color: #f3f3e6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.background-img {
+  position: absolute;
+  right: 30px;
+  width: 450px;
+  z-index: 1
+}
